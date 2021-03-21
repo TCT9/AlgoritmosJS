@@ -1,2 +1,2 @@
 # AlgoritmosJS
-Uso de algoritmos em Javascript - livro ALGORITMOS 2ª edição (Cormen e outros).
+Uso de algoritmos em Javascript - livro ALGORITMOS 3ª edição - tradução americana (Cormen e outros).
