@@ -11,4 +11,4 @@ Uso de algoritmos em Javascript - livro ALGORITMOS 3ª edição - tradução ame
 4. Um algoritmo é "correto" se para toda instância de entrada ele produz ou pára a saída correta.
 5. Algoritmos "incorretos" que podem ser úteis, se a taxa de erro puder ser controlada, como por exemplo no cálculo de números primos grandes.
 6. Grandes problemas para Ciência, Comércio, Industria (não se limitado a estas áreas) são resolvidos por meio de algoritmos eficientes e complexos. 
-7. Algoritmos eficientes fazem uso de estruturas de dados adequadas aos problemas que se propõem a resolver. Por adequado, dizemos que um estrura de dados pode se ineficiente para certo tipo de problema.  
+7. Algoritmos eficientes fazem uso de estruturas de dados adequadas aos problemas que se propõem a resolver. Por adequado, dizemos que uma estrura de dados pode ser ineficiente para um certo tipo de problema.  
