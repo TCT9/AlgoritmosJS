@@ -25,4 +25,4 @@ Uso de algoritmos em Javascript - livro ALGORITMOS 3ª edição - tradução ame
 ### 1.2 Algoritmos como tecnologia
 
 1. Não adianta ter um sistema com boa engenharia de software, se os algoritmos que ele utiliza não são eficientes. Se o sistema necessitar escalar, aumentar o número de usuários ou a carga de procesamento, seria de esperar que houvesse um aumento no uso de memória e processamento. Se um concorrente tem um sistema similar, mas usa algoritmos eficientes, o seu custo será menor, pois ele usará menor quantidade de memória e/ou processamento, tornando-se um risco a sua empresa.
-2.  No capítulo 2 será abordado dois tipos de algoritmos de ordenação, para ilustrar o conceito de eficiênica <img alt="formula" src="https://render.githubusercontent.com/render/math?math=a_i" /> = 2
+2.  No capítulo 2 será abordado dois tipos de algoritmos de ordenação, para ilustrar o conceito de eficiênica ![formula](https://render.githubusercontent.com/render/math?math=c_1*n^2)
