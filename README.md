@@ -1,5 +1,5 @@
 ---
-mathjax: true
+Equações: https://md-math.netlify.app/
 ---
 
 # AlgoritmosJS
