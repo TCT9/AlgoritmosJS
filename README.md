@@ -1,5 +1,6 @@
 ---
 Para inserir equações em seu 'md': https://md-math.netlify.app/
+O tema deve ser `DEFAULT LIGHT`: Sttings > Appearance > Theme Mode
 ---
 
 # AlgoritmosJS
