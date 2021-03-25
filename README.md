@@ -1,6 +1,6 @@
 ---
-Para inserir equações em seu 'md': https://md-math.netlify.app/
-O tema deve ser `DEFAULT LIGHT`: Sttings > Appearance > Theme Mode
+Inserir equações no 'md': https://md-math.netlify.app/
+O tema deve ser `DEFAULT LIGHT`: Settings > Appearance > Theme Mode
 Outras alternativas em: https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b
 ---
 
