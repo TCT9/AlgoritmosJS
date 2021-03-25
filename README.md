@@ -1,5 +1,5 @@
 ---
-Equações: https://md-math.netlify.app/
+Para inserir equações em seu 'md': https://md-math.netlify.app/
 ---
 
 # AlgoritmosJS
