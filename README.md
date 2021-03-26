@@ -29,8 +29,7 @@ Uso de algoritmos em Javascript - livro ALGORITMOS 3ª edição - tradução ame
 2.  No capítulo 2 será abordado dois tipos de algoritmos de ordenação. Para ilustrar o conceito de eficiênica, considere um algoritmo de *ordenação por inserção*, que gasta um tempo ![formula](https://render.githubusercontent.com/render/math?math=c_1*n^2), onde ![formula](https://render.githubusercontent.com/render/math?math=c_1) é uma constante que não depende de *n*, que representa a quantidade de itens ordenar. O outro algoritmo é o de *ordenação por intercalação*, que gasta um tempo ![formula](https://render.githubusercontent.com/render/math?math=c_2*n*lg(n)) para ser executado. Neste caso ![formula](https://render.githubusercontent.com/render/math?math=c_2) também não depende de *n* e ![formula](https://render.githubusercontent.com/render/math?math=lg(n)%20=%20log_2(n)). Quando *n* tende a valores muitos altos, na ordem de milhões ou bilhões de dados a ordenar, o algoritmo de *ordenação por inserção* gastará **um tempo muito maior** do que o algoritmo de *ordenação por intercalação*.
 3. Por exemplo, um servidor _X_ usa algoritmo de _ordenação por inserção_ e ele executa 1000 vezes mais instruções por segundo do que um outro servidor _Y_. Vamos supor que a velocidade de _Y_ é [] e a de _X_ é [].
 
-![formula](https://render.githubusercontent.com/render/math?math=\frac{%202*(10^7)^2%20instruções}%20{%2010^{10}%20instruções/segundo%20}%20=%2020.000%20segundos%20(5,5%20horas))
-
+<img alt="formula" src="https://render.githubusercontent.com/render/math?math=\frac{%202*(10^7)^2%20instruções}%20{%2010^{10}%20instruções/segundo%20}%20=%2020.000%20segundos%20(5,5%20horas)" />
 
 5.
 
