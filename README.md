@@ -27,10 +27,8 @@ Uso de algoritmos em Javascript - livro ALGORITMOS 3ª edição - tradução ame
 
 1. Não adianta ter um sistema com boa engenharia de software, se os algoritmos que ele utiliza não são eficientes. Se o sistema necessitar escalar, aumentar o número de usuários ou a carga de procesamento, seria de esperar que houvesse um aumento no uso de memória e processamento. Se um concorrente tem um sistema similar, mas usa algoritmos eficientes, o seu custo será menor, pois ele usará menor quantidade de memória e/ou processamento, tornando-se um risco a sua empresa.
 2.  No capítulo 2 será abordado dois tipos de algoritmos de ordenação. Para ilustrar o conceito de eficiênica, considere um algoritmo de *ordenação por inserção*, que gasta um tempo ![formula](https://render.githubusercontent.com/render/math?math=c_1*n^2), onde ![formula](https://render.githubusercontent.com/render/math?math=c_1) é uma constante que não depende de *n*, que representa a quantidade de itens ordenar. O outro algoritmo é o de *ordenação por intercalação*, que gasta um tempo ![formula](https://render.githubusercontent.com/render/math?math=c_2*n*lg(n)) para ser executado. Neste caso ![formula](https://render.githubusercontent.com/render/math?math=c_2) também não depende de *n* e ![formula](https://render.githubusercontent.com/render/math?math=lg(n)%20=%20log_2(n)). Quando *n* tende a valores muitos altos, na ordem de milhões ou bilhões de dados a ordenar, o algoritmo de *ordenação por inserção* gastará **um tempo muito maior** do que o algoritmo de *ordenação por intercalação*.
-3. Por exemplo, um servidor _X_ usa algoritmo de _ordenação por inserção_ e ele executa 1000 vezes mais instruções por segundo do que um outro servidor _Y_. Vamos supor que a velocidade de _Y_ é [] e a de _X_ é [].
-
-![formula](https://render.githubusercontent.com/render/math?math=\frac{%202(10^7)^2%20instrucoes}%20{%2010^{10}%20instrucoes/segundo%20}%20=%2020.000%20segundos%20(5,5%20horas))
-
+3. No livro cita a diferença entre um computador que executa 1000 vezes mais instruções por segundo do que o outro. Mas esse mais rápido está usando um algoritmo de *ordenação por inserção*, enquanto o mais lento, uma *ordenação por intercalação*. Resultado: o mais rápido gasta 5,5 horas para ordenar 10 milhões de números, enquanto o mais lento gasta menos de 20 minutos! Ou seja, poderíamos gastar menor no servidor se houvesse um algoritmo mais apropriado para a tarefa em questão!
+4. 
 5.
 
 
