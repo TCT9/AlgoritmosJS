@@ -17,7 +17,7 @@
             https://www.cin.ufpe.br/~if215/slides/2014-1/Aula%206%20-%20Secantes%20e%20Criterios%20de%20Parada.pdf
 
 */
-function raiz_fn(fn, x0, x1, delta_x = 0.000_1, delta_fn = 0.000_010, digits = 4) {
+function root_function(fn, x0, x1, delta_x = 0.000_1, delta_fn = 0.000_010, digits = 4) {
 
     /*
         x_(i+1) = ( x_(i-1)*fn(x_i) - x_i*fn(x_(i-1)) ) / ( fn(x_i) - fn(x_(i-1)) )
@@ -42,10 +42,10 @@ function raiz_fn(fn, x0, x1, delta_x = 0.000_1, delta_fn = 0.000_010, digits = 4
     let delta_x_calc = 0;
     let delta_fn_calc = 0;
 
-    let passos = 0;
+    let steps = 0;
 
     do {
-        passos += 1;
+        steps += 1;
 
         _x0 = _x1;
         _x1 = x2;
@@ -59,7 +59,7 @@ function raiz_fn(fn, x0, x1, delta_x = 0.000_1, delta_fn = 0.000_010, digits = 4
     
     }while((delta_x_calc > delta_x) && (delta_fn_calc > delta_fn))
 
-    console.log("Passos realizados: " + passos);
+    console.log("Passos realizados: " + steps);
 
     return parseFloat(Number(x2).toFixed(digits));
 }
@@ -89,11 +89,11 @@ function fn1_ehMaiorDoQue_fn2_se_x_for(fn1, fn2, x_ini, x_fin, delta_fn = 0.001,
     let dif_x = 0;
 
     x = _x_ini;
-    let passos = 0;
+    let steps = 0;
 
     do {
 
-        passos += 1;
+        steps += 1;
         diferenca = fn(fn1, fn2, x);
 
         if (Math.abs(diferenca) <= delta_fn) {
@@ -117,29 +117,29 @@ function fn1_ehMaiorDoQue_fn2_se_x_for(fn1, fn2, x_ini, x_fin, delta_fn = 0.001,
 
     }while (true);
 
-    console.log("Passos: " + passos);
+    console.log("Passos: " + steps);
     return parseFloat(Number(x).toFixed(digits));
 }
 
-function funcao1(x){
+function func1(x){
     return Math.sqrt(x) - 5*Math.exp(-x);
 }
 
-function funcao2(x){
+function func2(x){
     return Math.pow(x,2) + x - 6;
 }
 
-function funcao3(x){
+function func3(x){
     return 8*Math.pow(x,2) - 64*x*Math.log2(x);
 }
 
-let x_raiz = raiz_fn(funcao1, 1, 2);
-console.log("f(x) = Math.sqrt(x) - 5*Math.exp(-x), raiz = " + x_raiz);
+let x_root = root_function(func1, 1, 2);
+console.log("f(x) = Math.sqrt(x) - 5*Math.exp(-x), raiz = " + x_root);
 
-x_raiz = raiz_fn(funcao2, 0, 4);
-console.log("f(x) = Math.pow(x,2) + x - 6, raiz = " + x_raiz);
+x_root = root_function(func2, 0, 4);
+console.log("f(x) = Math.pow(x,2) + x - 6, raiz = " + x_root);
 
-let x_maior = fn1_ehMaiorDoQue_fn2_se_x_for(
+let x_larger = fn1_ehMaiorDoQue_fn2_se_x_for(
 
     fn1 = function(x){ 
         return 8*x**2;
@@ -154,4 +154,4 @@ let x_maior = fn1_ehMaiorDoQue_fn2_se_x_for(
     100
 );
 
-console.log("fn1(x) = 8*x**2, fn2(x) =  64*x*Math.log_2(x). fn1(x) > fn2(x),  x = " + x_maior);
+console.log("fn1(x) = 8*x**2, fn2(x) =  64*x*Math.log_2(x). fn1(x) > fn2(x),  x = " + x_larger);
