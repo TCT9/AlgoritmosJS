@@ -135,11 +135,11 @@ function func3(x){
 
 //encontra a raid de func1
 let x_root = root_function(func1, 1, 2);
-console.log("f(x) = Math.sqrt(x) - 5*Math.exp(-x), raiz = " + x_root);
+console.log(`f(x) = Math.sqrt(x) - 5*Math.exp(-x), raiz = ${x_root}\n`);
 
 //encontra a raid de func2
 x_root = root_function(func2, 0, 4);
-console.log("f(x) = Math.pow(x,2) + x - 6, raiz = " + x_root);
+console.log(`f(x) = Math.pow(x,2) + x - 6, raiz = ${x_root}\n`);
 
 //fn1 é maior do que fn2 se x é...
 let x_larger = fn1_isGreaterThan_fn2_if_x_is(
@@ -157,4 +157,16 @@ let x_larger = fn1_isGreaterThan_fn2_if_x_is(
     100 // poderíamos ter 1000, 10000 100000 e os passos não seriam grandes! 
 );
 
-console.log("fn1(x) = 8*x**2, fn2(x) =  64*x*Math.log_2(x). fn1(x) > fn2(x),  x = " + x_larger);
+console.log(`fn1(x) = 8*x**2, fn2(x) =  64*x*Math.log_2(x). Para fn1(x) > fn2(x), x = ${x_larger}`);
+
+/*
+Passos realizados: 5
+f(x) = Math.sqrt(x) - 5*Math.exp(-x), raiz = 1.4304
+
+Passos realizados: 6
+f(x) = Math.pow(x,2) + x - 6, raiz = 2
+
+Passos: 18
+fn1(x) = 8*x**2, fn2(x) =  64*x*Math.log_2(x). Para fn1(x) > fn2(x), x = 43.5598
+
+*/
