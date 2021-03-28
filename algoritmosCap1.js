@@ -75,7 +75,7 @@ function root_function(fn, x0, x1, delta_x = 0.000_1, delta_fn = 0.000_010, digi
     Já 64*x*log_2(x) é o número de passos gastos por um algoritmo de ordenação por intercalação
 
 */
-function fn1_ehMaiorDoQue_fn2_se_x_for(fn1, fn2, x_ini, x_fin, delta_fn = 0.001, digits = 4){
+function fn1_isGreaterThan_fn2_if_x_is(fn1, fn2, x_ini, x_fin, delta_fn = 0.001, digits = 4){
     
     function fn(fn1, fn2, x){
         return fn1(x) - fn2(x);
@@ -133,13 +133,16 @@ function func3(x){
     return 8*Math.pow(x,2) - 64*x*Math.log2(x);
 }
 
+//encontra a raid de func1
 let x_root = root_function(func1, 1, 2);
 console.log("f(x) = Math.sqrt(x) - 5*Math.exp(-x), raiz = " + x_root);
 
+//encontra a raid de func2
 x_root = root_function(func2, 0, 4);
 console.log("f(x) = Math.pow(x,2) + x - 6, raiz = " + x_root);
 
-let x_larger = fn1_ehMaiorDoQue_fn2_se_x_for(
+//fn1 é maior do que fn2 se x é...
+let x_larger = fn1_isGreaterThan_fn2_if_x_is(
 
     fn1 = function(x){ 
         return 8*x**2;
@@ -151,7 +154,7 @@ let x_larger = fn1_ehMaiorDoQue_fn2_se_x_for(
 
     2,
 
-    100
+    100 // poderíamos ter 1000, 10000 100000 e os passos não seriam grandes! 
 );
 
 console.log("fn1(x) = 8*x**2, fn2(x) =  64*x*Math.log_2(x). fn1(x) > fn2(x),  x = " + x_larger);
