@@ -30,5 +30,10 @@ Uso de algoritmos em Javascript - livro ALGORITMOS 3ª edição - tradução ame
 3. No livro cita a diferença entre um computador que executa 1000 vezes mais instruções por segundo do que o outro. Mas esse mais rápido está usando um algoritmo de *ordenação por inserção*, enquanto o mais lento, uma *ordenação por intercalação*. Resultado: o mais rápido gasta 5,5 horas para ordenar 10 milhões de números, enquanto o mais lento gasta menos de 20 minutos! Ou seja, poderíamos gastar menor no servidor se houvesse um algoritmo mais apropriado para a tarefa em questão!
 4. Foi desenvolvido, para estudo neste capítulo, dois algoritmos. O primeiro é [raiz_fn](https://github.com/TCT9/AlgoritmosJS/blob/main/algoritmosCap1.js) calcula uma a raíz de uma equação usando o *método das secantes*. O segundo é [fn1_ehMaiorDoQue_fn2_se_x_for](https://github.com/TCT9/AlgoritmosJS/blob/main/algoritmosCap1.js) que calcula o valor de x, para o qual, fn1(x) é maior do que fn2(x), usando um algoritmo de *pesquisa binária*. Este último será útil no momento que quisermos saber para qual valor de x uma função de *tempo de execução* será maior do que outra. Como exemplo, neste capítulo há o exercício 1.2-2, que solicita saber para qual valor de n, <img alt="formula" src="https://render.githubusercontent.com/render/math?math=8*n^2%20>%2064*n*log_2(n)" /> será maior. Desta forma, o uso da função *fn1_ehMaiorDoQue_fn2_se_x_for* resolve devolvendo um valor real de n. Basta aproximar para o próximo inteiro e a resposta do exercício será encontrada.
 
+## Capítulo 2 - Dando partida
 
+### Ordenação por inserção
+
+1. Alguns novas terminologias serão abordadas neste capítulo, e elas serão úteis para determinar se um algoritmo funciona corretamente ou não.
+2. A primeira análise será do algoritmo por *ordenação por inserção* recebe uma sequência de n números (como um array em Javascript) to tipo <a1, a2, ..., an>  e retorna uma saída <a1', a2', ..., an'>, de modo que a1' <= a2' <= ... <= an'.
 
