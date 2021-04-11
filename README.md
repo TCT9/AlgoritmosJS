@@ -39,11 +39,33 @@ Uso de algoritmos em Javascript - livro ALGORITMOS 3ª edição - tradução ame
 3. A forma de executar o algoritmo é similar ao modo como ordenamos as cartas de baralho na mão. Inicialmente sua mão esquerda está vazia. Com a direita nos pegams uma carta do topo da pilha e a movemos para a mão esquerda. Se movemos apenas uma carta e paramos, essa carta está automaticamente ordenada! Mas vamos supor que não paramos na primeira carta da mão esquerda. Mais uma carta carta é retirada do topo da pilha. Comparamos a carta da mão esquerda com a que temos na mão direita. Se a carta da mão direita for menor, que a da mão esquerda, ela será posta à frente.
 Exemplo:
 ```
+
 Mão esquerda: 6
 Mão direita: 4
 SE 4 < 6 
   Mão esquerda: 4,6
+  
 ```
-Agora nossa mão esquerda está com 4 e 6. Vamos retirar outra carta do topo da pilha, logo a mão direita vai ficar com, por exemplo, a carta 5. Ela deverá ser comparada com a maior carta (a mais a direita) até a menor carta. Deve-se seguir comparando a carta 5 com as maiores carta da mão esquerda. Caso se encontre uma carta que não seja menor do que 5, deve-se parar a comparação.
+
+Agora nossa mão esquerda está com 4 e 6. Vamos retirar outra carta do topo da pilha, logo a mão direita vai ficar com, por exemplo, a carta 5. Ela deverá ser comparada com a maior carta (a mais a direita) até a menor carta. Deve-se seguir comparando a carta 5 com as maiores cartas da mão esquerda. Caso se encontre uma carta que não seja menor do que 5, deve-se parar a comparação.
+
+```
+
+Mão esquerda: 4 e 6
+Mão direita: 5
+//No loop 1
+ENQUANTO 5 < 6          // verdadeiro
+  5 fica mais à esquerda
+  pegar carta mais a equerda
+
+Mão esquerda: 4, 5 e 6
+Mão direita: 4
+//No loop 2
+ENQUANTO 5 < 4        // falso
+  5 fica mais à esquerd
+  pegar carta mais a equerda
+
+```
+
 
 
