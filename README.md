@@ -110,7 +110,7 @@ Como o novo 5 não é menor do 5 que já existia, o novo 5 ficará a direita do 
 
 Vejamos o algoritmo em Javascript:
 
-```javascript {r, attr.source='.numberLines'}
+```{r, attr.source='.numberLines'}
 
   let i = 0;
   for (let j = 1; j < vetor.length; j++) {
