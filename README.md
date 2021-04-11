@@ -110,7 +110,7 @@ Como o novo 5 não é menor do 5 que já existia, o novo 5 ficará a direita do 
 
 Vejamos o algoritmo em Javascript:
 
-![insertion-sort](https://github.com/TCT9/AlgoritmosJS/blob/main/insertion-sort.png)
+![insertion-sort](https://github.com/TCT9/AlgoritmosJS/blob/main/insertion-sort2.png)
 
 
 
