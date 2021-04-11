@@ -42,7 +42,7 @@ Exemplo:
 
 Mão esquerda: 6
 Mão direita: 4
-ENQUANTO 4 < 6 
+ENQUANTO 4 < 6    // verdadeiro
   4 fica mais à esquerda
   pegar uma carta mais à equerda
   
@@ -60,13 +60,76 @@ ENQUANTO 5 < 6          // verdadeiro
   pegar uma carta mais à equerda
 
 Mão esquerda: 4, 5 e 6
-Mão direita: 4
 //No loop 2
 ENQUANTO 5 < 4        // falso
-  5 fica mais à esquerd
+  5 fica mais à esquerda
   pegar uma carta mais à equerda
 
 ```
+Como 5 não é menor do que 4, para-se a comparação. E a mão esquerda fica: 4,5 e 6. Vamos supor supor que a próxima carta no topo da pilha seja 10. Logo a mão direita vai estar com a carta 10. Vamos compará-la com as cartas da mão esquerda.
+
+```
+
+Mão esquerda: 4, 5 e 6
+Mão direita: 10
+//No loop 1
+ENQUANTO 10 < 6          // falso
+  10 fica mais à esquerda
+  pegar uma carta mais à equerda
+
+```
+
+Como 10 não é menor do 6, 10 ficará a direita de 6. Com isso, na mão esquerda teremos: 4,5,6 e 10. A próxima no topo da pilha é outro 5.
+
+```
+
+Mão esquerda: 4, 5, 6 e 10
+Mão direita: 5
+//No loop 1
+ENQUANTO 5 < 10          // verdadeiro
+  5 fica mais à esquerda
+  pegar uma carta mais à equerda
+
+Mão esquerda: 4, 5, 6 e 10
+Mão direita: 5
+//No loop 2
+ENQUANTO 5 < 6          // verdadeiro
+  5 fica mais à esquerda
+  pegar uma carta mais à equerda
+
+Mão esquerda: 4, 5, 6 e 10
+Mão direita: 5
+//No loop 3
+ENQUANTO 5 < 5          // falso
+  5 fica mais à esquerda
+  pegar uma carta mais à equerda
+
+```
+
+Como o novo 5 não é menor do 5 que já existia, o novo 5 ficará a direita do 5 que já existia. Com isso, na mão esquerda teremos: 4, 5, 5, 6 e 10. 
+
+Vejamos o algoritmo em Javascript:
+
+```javascript {r, attr.source='.numberLines'}
+
+  let i = 0;
+  for (let j = 1; j < vetor.length; j++) {
+  
+    chave = vetor[j];
+    // Inserir vetor[j] na sequência ordenada vetor[0 ... j-1]
+    i = j - 1;
+    
+    while (i > 0 vetor[j] > chave){
+      vetor[i+1] = v[i];
+      i--;
+    }
+    
+    vetor[i+1] = chave;
+      
+  }
+  
+```
+
 
 
 
