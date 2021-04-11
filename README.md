@@ -136,6 +136,10 @@ Será iniciado o 4º loop, com o vetor: 4, 5, 6, 10, 5, 3
 
 ![ilustração-insertion-fig5-while](https://github.com/TCT9/AlgoritmosJS/blob/main/fig-insertion-loop-4-while-1.png)
 
-No 4ºloop, porém no 2º loop while.
+No 4º loop, porém no 2º loop while.
 
 ![ilustração-insertion-fig6-while](https://github.com/TCT9/AlgoritmosJS/blob/main/fig-insertion-loop-4-while-2.png)
+
+Ainda no 4º loop, mas no 3º loop while
+
+![ilustração-insertion-fig7-while](https://github.com/TCT9/AlgoritmosJS/blob/main/fig-insertion-loop-4-while-3.png)
