@@ -120,7 +120,9 @@ O vetor ficará com: 4, 6, 5, 10, 5, 3 antes de começar o 2º loop.
 
 ![ilustracao-insertion-fig2](https://github.com/TCT9/AlgoritmosJS/blob/main/fig-insertion-loop-2.png)
 
+No 2º loop, mas agora examinando agora o 2º loop while.
 
+![ilustração-insertion-fig3-while](https://github.com/TCT9/AlgoritmosJS/blob/main/fig-insertion-loop-2-while-2.png)
 
 
 
