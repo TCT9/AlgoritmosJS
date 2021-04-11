@@ -110,43 +110,8 @@ Como o novo 5 não é menor do 5 que já existia, o novo 5 ficará a direita do 
 
 Vejamos o algoritmo em Javascript:
 
-```{r, attr.source='.numberLines'}
 
-  let i = 0;
-  for (let j = 1; j < vetor.length; j++) {
-  
-    chave = vetor[j];
-    // Inserir vetor[j] na sequência ordenada vetor[0 ... j-1]
-    i = j - 1;
-    
-    while (i > 0 vetor[j] > chave){
-      vetor[i+1] = v[i];
-      i--;
-    }
-    
-    vetor[i+1] = chave;
-      
-  }
-  
-```
 
----
-output:
-  html_document:
-     highlight: haddock
----
-
-```{#numCode .R .numberLines}
-   x <- 1:10
-   y <- x^2
-   plot(x,y)
-```
-
-```{r results='asis', echo=FALSE}
-   x <- 1:10
-   y <- x^2
-   plot(x,y)
-```
 
 
 
