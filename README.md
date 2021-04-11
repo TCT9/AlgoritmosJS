@@ -124,6 +124,9 @@ No 2º loop, mas agora examinando agora o 2º loop while.
 
 ![ilustração-insertion-fig3-while](https://github.com/TCT9/AlgoritmosJS/blob/main/fig-insertion-loop-2-while-2.png)
 
+Antes de começar o 3º loop o vetor tem: 4,5,6, 10, 5, 3
+
+![ilustração-insertion-fig3-while](https://github.com/TCT9/AlgoritmosJS/blob/main/fig-insertion-loop-3-while-1.png)
 
 
 
