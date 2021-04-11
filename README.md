@@ -42,8 +42,9 @@ Exemplo:
 
 Mão esquerda: 6
 Mão direita: 4
-SE 4 < 6 
-  Mão esquerda: 4,6
+ENQUANTO 4 < 6 
+  4 fica mais à esquerda
+  pegar uma carta mais à equerda
   
 ```
 
@@ -56,14 +57,14 @@ Mão direita: 5
 //No loop 1
 ENQUANTO 5 < 6          // verdadeiro
   5 fica mais à esquerda
-  pegar carta mais a equerda
+  pegar uma carta mais à equerda
 
 Mão esquerda: 4, 5 e 6
 Mão direita: 4
 //No loop 2
 ENQUANTO 5 < 4        // falso
   5 fica mais à esquerd
-  pegar carta mais a equerda
+  pegar uma carta mais à equerda
 
 ```
 
