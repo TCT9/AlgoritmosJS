@@ -116,6 +116,8 @@ Veja como o algoritmo acima funciona até ordenar um vetor.
 
 ![ilustracao-insertion-fig1](https://github.com/TCT9/AlgoritmosJS/blob/main/fig-insertion-loop-1.png)
 
+O vetor ficará com: 4, 6, 5, 10, 5, 3 antes de começar o 2º loop.
+
 ![ilustracao-insertion-fig2](https://github.com/TCT9/AlgoritmosJS/blob/main/fig-insertion-loop-2.png)
 
 
