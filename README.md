@@ -112,6 +112,10 @@ Vejamos o algoritmo em Javascript:
 
 ![insertion-sort](https://github.com/TCT9/AlgoritmosJS/blob/main/insertion-sort3.png)
 
+Veja como o algoritmo acima funciona até ordenar um vetor.
+
+![]/ilustracao-insertion-fig1](https://github.com/TCT9/AlgoritmosJS/blob/main/fig-insertion-loop-1.png)
+
 
 
 
