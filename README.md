@@ -130,6 +130,24 @@ Vejamos o algoritmo em Javascript:
   
 ```
 
+---
+output:
+  html_document:
+     highlight: haddock
+---
+
+```{#numCode .R .numberLines}
+   x <- 1:10
+   y <- x^2
+   plot(x,y)
+```
+
+```{r results='asis', echo=FALSE}
+   x <- 1:10
+   y <- x^2
+   plot(x,y)
+```
+
 
 
 
