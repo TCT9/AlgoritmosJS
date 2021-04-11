@@ -109,7 +109,9 @@ ENQUANTO 5 < 5          // falso
 Como o novo 5 não é menor do 5 que já existia, o novo 5 ficará a direita do 5 que já existia. Com isso, na mão esquerda teremos: 4, 5, 5, 6 e 10. 
 
 Vejamos o algoritmo em Javascript:
+
 ![insertion-sort](https://github.com/TCT9/AlgoritmosJS/blob/main/insertion-sort.png)
+
 
 
 
