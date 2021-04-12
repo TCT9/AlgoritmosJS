@@ -143,3 +143,7 @@ No 4º loop, porém no 2º loop while.
 Ainda no 4º loop, mas no 3º loop while
 
 ![ilustração-insertion-fig7-while](https://github.com/TCT9/AlgoritmosJS/blob/main/fig-insertion-loop-4-while-3.png)
+
+A figura abaixo resume a parte final do algoritmo.
+
+![ilustração-insertion-fim](https://github.com/TCT9/AlgoritmosJS/blob/main/fig-insertion-fim.png)
