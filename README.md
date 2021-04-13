@@ -147,3 +147,13 @@ Ainda no 4º loop, mas no 3º loop while
 A figura abaixo resume a parte final do algoritmo.
 
 ![ilustração-insertion-fim](https://github.com/TCT9/AlgoritmosJS/blob/main/fig-insertion-fim.png)
+
+4. _Invariante de laço_ pode ser definido como: "(...) uma relação entre as variáveis de um algoritmo que é verdadeira em um determinado ponto p (ou linha p)
+do laço." (ALMEIDA, Sheila <https://sheilaalmeida.pro.br/aulas/apa/aula06-InvariantesDeLaco.pdf> acessado em 13/04/2021). Outra definição: 
+
+"Uma _invariante de laço_ é um conjunto de propriedade que:
+(i)  São verdadeiras **antes** da primeira iteração;
+(ii) **Se** são verdadeiras **antes** da i-ésima iteração começar, **então** são verdadeiras antes da (i+1)-ésima começar." (LINTZMAYER, Carla <https://www.youtube.com/watch?v=VNfrRqe7y0Y> acessado em 13/04/2021)
+
+
+
