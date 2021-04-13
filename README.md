@@ -158,5 +158,5 @@ Outra definição:
 "Uma _invariante de laço_ é um conjunto de propriedade que:
 
 + i. São verdadeiras **antes** da primeira iteração;
-+ ii. **Se** são verdadeiras **antes** da i-ésima iteração começar, **então** são verdadeiras antes da (i+1)-ésima começar." (LINTZMAYER, Carla <https://www.youtube.com/watch?v=VNfrRqe7y0Y> acessado em 13/04/2021)
++ ii. **Se** são verdadeiras **antes** da i-ésima iteração começar, **então** são verdadeiras antes da (i+1)-ésima começar." (LINTZMAYER, Carla <https://www.youtube.com/watch?v=VNfrRqe7y0Y> acessado em 13/04/2021)"
 
